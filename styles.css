@@ -85,6 +85,7 @@ img { display: block; }
 .dots li::before { content: '·'; color: var(--brand); }
 .barrier .bridge { margin: 32px 0 0; }
 .portrait { aspect-ratio: 4/5; }
+.portrait img { object-position: 65% center; }
 
 /* S4 Care directions */
 .care { padding: 110px 6%; max-width: 1120px; margin: 0 auto; text-align: center; }
